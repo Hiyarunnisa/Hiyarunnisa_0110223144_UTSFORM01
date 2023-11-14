@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-grup{
+            background-color: beige;
+            margin: 5px;
+        }
+
+        label{
+        font-weight: bold;
+        }
+
+        input{
+            float: 10px;
+        }
+
+        body{
+        font-family: 'Times New Roman', Times, serif;
+        }
+
+        .form-container{
+            width: 300px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <div class="form-container"></div>
+        <from method="post" action="">
+        <legend><h3>Daftarkan Alumni</h3></legend>
+
+        <div class="form-grup">
+            <label for="srch">Cari Nama Alumni</label>
+            <input type="search" id="srch" placeholder="Search your name here!">
+            
+
+        <div class="form-grup">
+            <label for="prodi">Program Studi :</label>
+            <select name="prodi" id="prodi" placeholder="What's ur prodi?">
+                <option value="SI">Sistem Informasi</option>
+                <option value="TI">Teknik Informatika</option>
+            </select>
+
+        <div class="form-grup">
+            <label for="tahun">Tahun Masuk :</label>
+            <input type="date" id="tahun">
+
+        <div class="form-grup">
+            <label for="linkedln">Alamat Linkedln :</label>
+            <input type="text" id="linkedln">
+        
+        <div class="form-grup">
+            <label for="job">Pekerjaan :</label>
+            <input type="text" id="job">
+
+        <div class="form-grup">
+            <label for="address">Alamat Kantor :</label>
+            <input type="textarea" id="address">
+
+        <div class="form-grup">
+            <label> Pengurus Alumni </label>
+            <input type="radio" id="y" name="Yes" value="y">
+            <label for="y">Ya</label>
+            <input type="radio" id="g" name="Yes" value="g">
+            <label for="g">Tidak</label>
+        </div>
+
+        <br>
+        <br>
+        <input type="submit" value="Simpan">
+        <input type="reset">
+        </div>
+    </form>
+    </fieldset>
+</body>
+</html>
